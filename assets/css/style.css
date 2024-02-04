@@ -508,6 +508,8 @@ h6 {
 #FAQMentalSpan{
   border-bottom: 1 nbpx solid var(--primary-color);
   color: black;
+  font-size: 2rem;
+  font-weight: 600;
   font-family: Nanum Myeongjo;
 }
 
@@ -758,10 +760,9 @@ section {
   position: relative;
 }
 
-.section-title h2 {
-  font-size: 32px;
-  font-weight: 700;
-  text-transform: uppercase;
+.section-title h3 {
+  font-size: 1rem;
+  font-weight: 400;
   margin-bottom: 20px;
   padding-bottom: 0;
   color: #3b434a;
@@ -775,7 +776,7 @@ section {
   color: #eef0f2;
   left: 0;
   right: 0;
-  z-index: 1;
+  z-index: -4;
   font-weight: 700;
   font-size: 52px;
   text-transform: uppercase;
@@ -1538,7 +1539,7 @@ section {
 
 .contact .php-email-form {
   box-shadow: 0 0 30px rgba(214, 215, 216, 0.6);
-  padding: 27px;
+  padding: 38px;
 }
 
 .contact .php-email-form .validate {
@@ -1640,8 +1641,8 @@ section {
 # Footer
 --------------------------------------------------------------*/
 #footer {
-  background: url("../img/bg-footer.jpg") top center no-repeat;
-  background-size: contain;
+  background: url("../img/background-footer.jpg") top center no-repeat;
+  background-size: cover;
   background-repeat: repeat-x;
   background-position: center;
   color: #fff;
